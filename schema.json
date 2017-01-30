@@ -1,0 +1,60 @@
+{
+	"fields": [
+		{
+			"name": "Prefix",
+			"title": "Prefix",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "FileOffice",
+			"title": "FileOffice",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "CurrentOwner",
+			"title": "CurrentOwner",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "UsagePeriod",
+			"title": "UsagePeriod",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "NumberOfFilesHeld",
+			"title": "NumberOfFilesHeld",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "NumberOfDocumentsHeld",
+			"title": "NumberOfDocumentsHeld",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "BusinessFunctionCovered",
+			"title": "BusinessFunctionCovered",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		}
+	]
+}
